@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- 包名-->
+    <packagename>com.dw.project.intellectterminal</packagename>
+    <!-- 主activity-->
+    <mainactivity>com.dj.project.intellectterminal.ui.activiity.MainActivity</mainactivity>
+    <!-- 白名单activity-->
+    <whiteactivity>
+        /com.dj.project.intellectterminal.ui.activiity.MainActivity,
+        com.dj.project.intellectterminal.ui.activiity.SystemParamSettingActivity,
+
+    </whiteactivity>
+    <!-- 检查时间秒-->
+    <interval>5</interval>
+    <!-- 检查次数-->
+    <count>100000</count>
+</config>

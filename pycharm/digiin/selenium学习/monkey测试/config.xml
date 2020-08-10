@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- 包名-->
+    <packagename>com.dw.project.dianming.test</packagename>
+    <!-- 主activity-->
+    <mainactivity>com.dj.module.app.common.modules.main.ui.activity.MainActivity</mainactivity>
+    <!-- 白名单activity-->
+    <whiteactivity>
+        /com.dj.module.app.common.modules.main.ui.activity.MainActivity,
+        <!--主界面-->
+        /com.dj.module.app.home.home.modules.classsign.ui.activity.ClassSignActivity,
+        <!--课堂打卡-签到-->
+        /com.dj.module.app.home.home.modules.historysign.ui.activity.ClassAttendanceActivity,
+        <!--历史签到-->
+        /com.dj.module.app.home.home.modules.timetable.ui.activity.TimetableActivity,
+        <!--课程表-->
+        <!--/com.dj.module.app.home.webview.ui.activity.BaseWebviewActivity,-->
+        <!--成绩查询-链接-->
+        /com.dj.module.app.home.home.modules.temperature.ui.activity.TemperatureActivity,
+        <!--无感测温-->
+        /com.dj.module.app.home.home.modules.psq.ui.activity.HealthPsqActivity,
+        <!--健康问卷-->
+        /com.dj.module.app.home.home.modules.qrcode.activity.HealthQrCodeActivity,
+        <!--健康码-->
+        /com.dj.module.app.home.home.modules.uploadavatar.ui.activity.UploadAvatarActivity,
+        <!--图片上传-->
+        /com.dj.module.app.mine.ui.activity.MineAboutActivity,
+        <!--我的-关于迪进-->
+        <!--/com.dj.module.app.mine.ui.activity.MineSCActivity,-->
+        <!--我的-关于迪进-等保认证-->
+        /com.dj.module.app.mine.ui.activity.MineSettingActivity,
+        <!--我的-设置-->
+        <!--/com.dj.module.app.mine.ui.activity.LanguageActivity-->
+        <!--语言-->
+    </whiteactivity>
+    <!-- 检查时间秒-->
+    <interval>10</interval>
+    <!-- 检查次数-->
+    <count>100000</count>
+</config>
